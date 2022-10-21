@@ -7,3 +7,15 @@
 2022-10-21T11:52:16,747 [Test worker] INFO  (BaseTest.java:40) - Iniciando la configuración
 2022-10-21T11:52:18,965 [Test worker] INFO  (Applicationproperties.java:36) - Property application-dev.properties
 2022-10-21T11:52:19,149 [Test worker] INFO  (BaseTest.java:42) - Configuración exitosa
+2022-10-21T11:54:36,458 [Test worker] INFO  (BaseTest.java:40) - Iniciando la configuración
+2022-10-21T11:54:37,836 [Test worker] INFO  (Applicationproperties.java:36) - Property application-dev.properties
+2022-10-21T11:54:37,974 [Test worker] INFO  (BaseTest.java:42) - Configuración exitosa
+2022-10-21T12:31:06,873 [Test worker] INFO  (BaseTest.java:40) - Iniciando la configuración
+2022-10-21T12:31:08,173 [Test worker] INFO  (Applicationproperties.java:36) - Property application-dev.properties
+2022-10-21T12:31:08,362 [Test worker] INFO  (BaseTest.java:42) - Configuración exitosa
+2022-10-21T12:33:26,104 [Test worker] INFO  (BaseTest.java:40) - Iniciando la configuración
+2022-10-21T12:33:27,225 [Test worker] INFO  (Applicationproperties.java:36) - Property application-dev.properties
+2022-10-21T12:33:27,380 [Test worker] INFO  (BaseTest.java:42) - Configuración exitosa
+2022-10-21T12:43:03,392 [Test worker] INFO  (BaseTest.java:40) - Iniciando la configuración
+2022-10-21T12:43:04,958 [Test worker] INFO  (Applicationproperties.java:36) - Property application-dev.properties
+2022-10-21T12:43:05,135 [Test worker] INFO  (BaseTest.java:42) - Configuración exitosa
