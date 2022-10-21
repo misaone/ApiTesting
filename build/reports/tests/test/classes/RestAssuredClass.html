@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class RestAssuredClass</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class RestAssuredClass</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; RestAssuredClass</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">10</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">6.472s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">LoginRequestTest()</td>
+<td class="success">3.671s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">createUserTest()</td>
+<td class="success">0.187s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">deleteUserTest()</td>
+<td class="success">0.191s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getAllUsersTest()</td>
+<td class="success">0.109s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getSingleUser()</td>
+<td class="success">0.168s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getUsersLength()</td>
+<td class="success">0.327s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getUsersTest()</td>
+<td class="success">0.314s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">patchUserTest()</td>
+<td class="success">0.188s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">putUserTest()</td>
+<td class="success">0.274s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">registerUserTest()</td>
+<td class="success">1.043s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2022-10-20T12:22:53,358 [Test worker] INFO  (BaseTest.java:39) - Iniciando la configuración
+2022-10-20T12:22:54,525 [Test worker] INFO  (Applicationproperties.java:36) - Property application-dev.properties
+2022-10-20T12:22:54,640 [Test worker] INFO  (BaseTest.java:41) - Configuración exitosa
+Request method:	POST
+Request URI:	https://reqres.in/api/login
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{
+    &quot;email&quot;: &quot;eve.holt@reqres.in&quot;,
+    &quot;password&quot;: &quot;cityslicka&quot;
+}
+HTTP/1.1 200 OK
+Date: Thu, 20 Oct 2022 10:22:56 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 29
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/&quot;1d-lGCrvD6B7Qzk11+2C98+nGhhuec&quot;
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=xdQ04MeykO%2BfHEaCrBdoMvopUDjQoneEuF%2BVPhKCFkLTEcPc%2FovDGqFR04LQOaWMWBM59JfGNviAxDmD8xAE6We7C1cTh%2BE5utJIVqcM7YGItqhziiRk94vxog%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+Server: cloudflare
+CF-RAY: 75d109055e7699b7-CDG
+
+{
+    &quot;token&quot;: &quot;QpwL5tke4Pnpja7X4&quot;
+}
+Request method:	GET
+Request URI:	https://reqres.in/api/users?page=2
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:			&lt;none&gt;
+HTTP/1.1 200 OK
+Date: Thu, 20 Oct 2022 10:22:58 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/&quot;406-ut0vzoCuidvyMf8arZpMpJ6ZRDw&quot;
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+Age: 5276
+Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=5YPnT1JdwcBvNJ9M43W9Pea5sOgbW%2BEQwJugr0cOOstkZv2QHWNt8h%2FUMACaq6N8ArmtwyPXc%2FL%2F8BmUQzYs4RDK28BM3Ynyec7WFNrUE3yTZ%2F0n5nnFPVbkOg%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 75d109101eaf667b-MAD
+Content-Encoding: gzip
+
+{
+    &quot;page&quot;: 2,
+    &quot;per_page&quot;: 6,
+    &quot;total&quot;: 12,
+    &quot;total_pages&quot;: 2,
+    &quot;data&quot;: [
+        {
+            &quot;id&quot;: 7,
+            &quot;email&quot;: &quot;michael.lawson@reqres.in&quot;,
+            &quot;first_name&quot;: &quot;Michael&quot;,
+            &quot;last_name&quot;: &quot;Lawson&quot;,
+            &quot;avatar&quot;: &quot;https://reqres.in/img/faces/7-image.jpg&quot;
+        },
+        {
+            &quot;id&quot;: 8,
+            &quot;email&quot;: &quot;lindsay.ferguson@reqres.in&quot;,
+            &quot;first_name&quot;: &quot;Lindsay&quot;,
+            &quot;last_name&quot;: &quot;Ferguson&quot;,
+            &quot;avatar&quot;: &quot;https://reqres.in/img/faces/8-image.jpg&quot;
+        },
+        {
+            &quot;id&quot;: 9,
+            &quot;email&quot;: &quot;tobias.funke@reqres.in&quot;,
+            &quot;first_name&quot;: &quot;Tobias&quot;,
+            &quot;last_name&quot;: &quot;Funke&quot;,
+            &quot;avatar&quot;: &quot;https://reqres.in/img/faces/9-image.jpg&quot;
+        },
+        {
+            &quot;id&quot;: 10,
+            &quot;email&quot;: &quot;byron.fields@reqres.in&quot;,
+            &quot;first_name&quot;: &quot;Byron&quot;,
+            &quot;last_name&quot;: &quot;Fields&quot;,
+            &quot;avatar&quot;: &quot;https://reqres.in/img/faces/10-image.jpg&quot;
+        },
+        {
+            &quot;id&quot;: 11,
+            &quot;email&quot;: &quot;george.edwards@reqres.in&quot;,
+            &quot;first_name&quot;: &quot;George&quot;,
+            &quot;last_name&quot;: &quot;Edwards&quot;,
+            &quot;avatar&quot;: &quot;https://reqres.in/img/faces/11-image.jpg&quot;
+        },
+        {
+            &quot;id&quot;: 12,
+            &quot;email&quot;: &quot;rachel.howell@reqres.in&quot;,
+            &quot;first_name&quot;: &quot;Rachel&quot;,
+            &quot;last_name&quot;: &quot;Howell&quot;,
+            &quot;avatar&quot;: &quot;https://reqres.in/img/faces/12-image.jpg&quot;
+        }
+    ],
+    &quot;support&quot;: {
+        &quot;url&quot;: &quot;https://reqres.in/#support-heading&quot;,
+        &quot;text&quot;: &quot;To keep ReqRes free, contributions towards server costs are appreciated!&quot;
+    }
+}
+total 6
+Request method:	GET
+Request URI:	https://reqres.in/api/users?page=2
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:			&lt;none&gt;
+HTTP/1.1 200 OK
+Date: Thu, 20 Oct 2022 10:22:58 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/&quot;406-ut0vzoCuidvyMf8arZpMpJ6ZRDw&quot;
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+Age: 5276
+Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=Rt1r0kzfVsksKqhICxFrACgyv12riMmluseMtfNqR7KaxLMM5kB2MbHvxki7%2FzC3dbLaGUqRReus72IFmmhb%2B%2B13pAaRThITel%2F828BcvDJO8aMAvWDVSn11jw%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 75d10911b9636683-MAD
+Content-Encoding: gzip
+
+{
+    &quot;page&quot;: 2,
+    &quot;per_page&quot;: 6,
+    &quot;total&quot;: 12,
+    &quot;total_pages&quot;: 2,
+    &quot;data&quot;: [
+        {
+            &quot;id&quot;: 7,
+            &quot;email&quot;: &quot;michael.lawson@reqres.in&quot;,
+            &quot;first_name&quot;: &quot;Michael&quot;,
+            &quot;last_name&quot;: &quot;Lawson&quot;,
+            &quot;avatar&quot;: &quot;https://reqres.in/img/faces/7-image.jpg&quot;
+        },
+        {
+            &quot;id&quot;: 8,
+            &quot;email&quot;: &quot;lindsay.ferguson@reqres.in&quot;,
+            &quot;first_name&quot;: &quot;Lindsay&quot;,
+            &quot;last_name&quot;: &quot;Ferguson&quot;,
+            &quot;avatar&quot;: &quot;https://reqres.in/img/faces/8-image.jpg&quot;
+        },
+        {
+            &quot;id&quot;: 9,
+            &quot;email&quot;: &quot;tobias.funke@reqres.in&quot;,
+            &quot;first_name&quot;: &quot;Tobias&quot;,
+            &quot;last_name&quot;: &quot;Funke&quot;,
+            &quot;avatar&quot;: &quot;https://reqres.in/img/faces/9-image.jpg&quot;
+        },
+        {
+            &quot;id&quot;: 10,
+            &quot;email&quot;: &quot;byron.fields@reqres.in&quot;,
+            &quot;first_name&quot;: &quot;Byron&quot;,
+            &quot;last_name&quot;: &quot;Fields&quot;,
+            &quot;avatar&quot;: &quot;https://reqres.in/img/faces/10-image.jpg&quot;
+        },
+        {
+            &quot;id&quot;: 11,
+            &quot;email&quot;: &quot;george.edwards@reqres.in&quot;,
+            &quot;first_name&quot;: &quot;George&quot;,
+            &quot;last_name&quot;: &quot;Edwards&quot;,
+            &quot;avatar&quot;: &quot;https://reqres.in/img/faces/11-image.jpg&quot;
+        },
+        {
+            &quot;id&quot;: 12,
+            &quot;email&quot;: &quot;rachel.howell@reqres.in&quot;,
+            &quot;first_name&quot;: &quot;Rachel&quot;,
+            &quot;last_name&quot;: &quot;Howell&quot;,
+            &quot;avatar&quot;: &quot;https://reqres.in/img/faces/12-image.jpg&quot;
+        }
+    ],
+    &quot;support&quot;: {
+        &quot;url&quot;: &quot;https://reqres.in/#support-heading&quot;,
+        &quot;text&quot;: &quot;To keep ReqRes free, contributions towards server costs are appreciated!&quot;
+    }
+}
+Date=Thu, 20 Oct 2022 10:22:58 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+X-Powered-By=Express
+Access-Control-Allow-Origin=*
+Etag=W/&quot;406-ut0vzoCuidvyMf8arZpMpJ6ZRDw&quot;
+Via=1.1 vegur
+Cache-Control=max-age=14400
+CF-Cache-Status=HIT
+Age=5276
+Report-To={&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=Rt1r0kzfVsksKqhICxFrACgyv12riMmluseMtfNqR7KaxLMM5kB2MbHvxki7%2FzC3dbLaGUqRReus72IFmmhb%2B%2B13pAaRThITel%2F828BcvDJO8aMAvWDVSn11jw%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+NEL={&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+Vary=Accept-Encoding
+Server=cloudflare
+CF-RAY=75d10911b9636683-MAD
+Content-Encoding=gzip
+200
+{&quot;page&quot;:2,&quot;per_page&quot;:6,&quot;total&quot;:12,&quot;total_pages&quot;:2,&quot;data&quot;:[{&quot;id&quot;:7,&quot;email&quot;:&quot;michael.lawson@reqres.in&quot;,&quot;first_name&quot;:&quot;Michael&quot;,&quot;last_name&quot;:&quot;Lawson&quot;,&quot;avatar&quot;:&quot;https://reqres.in/img/faces/7-image.jpg&quot;},{&quot;id&quot;:8,&quot;email&quot;:&quot;lindsay.ferguson@reqres.in&quot;,&quot;first_name&quot;:&quot;Lindsay&quot;,&quot;last_name&quot;:&quot;Ferguson&quot;,&quot;avatar&quot;:&quot;https://reqres.in/img/faces/8-image.jpg&quot;},{&quot;id&quot;:9,&quot;email&quot;:&quot;tobias.funke@reqres.in&quot;,&quot;first_name&quot;:&quot;Tobias&quot;,&quot;last_name&quot;:&quot;Funke&quot;,&quot;avatar&quot;:&quot;https://reqres.in/img/faces/9-image.jpg&quot;},{&quot;id&quot;:10,&quot;email&quot;:&quot;byron.fields@reqres.in&quot;,&quot;first_name&quot;:&quot;Byron&quot;,&quot;last_name&quot;:&quot;Fields&quot;,&quot;avatar&quot;:&quot;https://reqres.in/img/faces/10-image.jpg&quot;},{&quot;id&quot;:11,&quot;email&quot;:&quot;george.edwards@reqres.in&quot;,&quot;first_name&quot;:&quot;George&quot;,&quot;last_name&quot;:&quot;Edwards&quot;,&quot;avatar&quot;:&quot;https://reqres.in/img/faces/11-image.jpg&quot;},{&quot;id&quot;:12,&quot;email&quot;:&quot;rachel.howell@reqres.in&quot;,&quot;first_name&quot;:&quot;Rachel&quot;,&quot;last_name&quot;:&quot;Howell&quot;,&quot;avatar&quot;:&quot;https://reqres.in/img/faces/12-image.jpg&quot;}],&quot;support&quot;:{&quot;url&quot;:&quot;https://reqres.in/#support-heading&quot;,&quot;text&quot;:&quot;To keep ReqRes free, contributions towards server costs are appreciated!&quot;}}
+application/json; charset=utf-8
+Request method:	POST
+Request URI:	https://reqres.in/api/register
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{
+    &quot;password&quot;: &quot;pistol&quot;,
+    &quot;email&quot;: &quot;eve.holt@reqres.in&quot;
+}
+HTTP/1.1 200 OK
+Date: Thu, 20 Oct 2022 10:22:59 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/&quot;24-4iP0za1geN2he+ohu8F0FhCjLks&quot;
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=gkvHS%2Fo5A4ZeadJb2JjcqLuVLeamNkKARnrTuM%2BM9tw3KGm7LQcXlfGCHtE8Uh3Uo6SGkZBptmahOp3hNFre%2BXKtH0V7m5mOT6usu4Db9UaU2awG5XJhwdM5ZA%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+Server: cloudflare
+CF-RAY: 75d1091728d514f9-MAD
+
+{
+    &quot;id&quot;: 4,
+    &quot;token&quot;: &quot;QpwL5tke4Pnpja7X4&quot;
+}
+Request method:	PUT
+Request URI:	https://reqres.in/api/users/2
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{
+    &quot;name&quot;: &quot;morpheus&quot;,
+    &quot;job&quot;: &quot;zion resident&quot;
+}
+HTTP/1.1 200 OK
+Date: Thu, 20 Oct 2022 10:23:00 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/&quot;50-XxD9RrQn8NSCYQqKkudhFLTLK8Q&quot;
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=FkW1lAx%2BLozl7hMUW7WDJdxcErDmKdWXZJuIvUGle%2BPpAIxYHV2mDngD9Kwb1ydFxt5GVEHKb45ctzfs8BjGMyPrAEzzRbqyvm1UMbQjaP4z6Ho9jkUJZ1%2BbNQ%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 75d1091938c399f1-CDG
+Content-Encoding: gzip
+
+{
+    &quot;name&quot;: &quot;morpheus&quot;,
+    &quot;job&quot;: &quot;zion resident&quot;,
+    &quot;updatedAt&quot;: &quot;2022-10-20T10:23:00.084Z&quot;
+}
+Request method:	GET
+Request URI:	https://reqres.in/api/users?page=2
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:			&lt;none&gt;
+HTTP/1.1 200 OK
+Date: Thu, 20 Oct 2022 10:23:00 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/&quot;406-ut0vzoCuidvyMf8arZpMpJ6ZRDw&quot;
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+Age: 5278
+Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=MLK39SdsvrT6xLIiA4uu3NV3YmOd%2FoUruRaYqpEikbv%2FAlKEp3wryotU6vQLViHsiZ%2BTZwMRDWzuogXzOPc0UXNRvY0qsFWsS6aFtS7m3FoXONC%2BN2gWQDjKXQ%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 75d1091aad0286c2-MAD
+Content-Encoding: gzip
+
+{
+    &quot;page&quot;: 2,
+    &quot;per_page&quot;: 6,
+    &quot;total&quot;: 12,
+    &quot;total_pages&quot;: 2,
+    &quot;data&quot;: [
+        {
+            &quot;id&quot;: 7,
+            &quot;email&quot;: &quot;michael.lawson@reqres.in&quot;,
+            &quot;first_name&quot;: &quot;Michael&quot;,
+            &quot;last_name&quot;: &quot;Lawson&quot;,
+            &quot;avatar&quot;: &quot;https://reqres.in/img/faces/7-image.jpg&quot;
+        },
+        {
+            &quot;id&quot;: 8,
+            &quot;email&quot;: &quot;lindsay.ferguson@reqres.in&quot;,
+            &quot;first_name&quot;: &quot;Lindsay&quot;,
+            &quot;last_name&quot;: &quot;Ferguson&quot;,
+            &quot;avatar&quot;: &quot;https://reqres.in/img/faces/8-image.jpg&quot;
+        },
+        {
+            &quot;id&quot;: 9,
+            &quot;email&quot;: &quot;tobias.funke@reqres.in&quot;,
+            &quot;first_name&quot;: &quot;Tobias&quot;,
+            &quot;last_name&quot;: &quot;Funke&quot;,
+            &quot;avatar&quot;: &quot;https://reqres.in/img/faces/9-image.jpg&quot;
+        },
+        {
+            &quot;id&quot;: 10,
+            &quot;email&quot;: &quot;byron.fields@reqres.in&quot;,
+            &quot;first_name&quot;: &quot;Byron&quot;,
+            &quot;last_name&quot;: &quot;Fields&quot;,
+            &quot;avatar&quot;: &quot;https://reqres.in/img/faces/10-image.jpg&quot;
+        },
+        {
+            &quot;id&quot;: 11,
+            &quot;email&quot;: &quot;george.edwards@reqres.in&quot;,
+            &quot;first_name&quot;: &quot;George&quot;,
+            &quot;last_name&quot;: &quot;Edwards&quot;,
+            &quot;avatar&quot;: &quot;https://reqres.in/img/faces/11-image.jpg&quot;
+        },
+        {
+            &quot;id&quot;: 12,
+            &quot;email&quot;: &quot;rachel.howell@reqres.in&quot;,
+            &quot;first_name&quot;: &quot;Rachel&quot;,
+            &quot;last_name&quot;: &quot;Howell&quot;,
+            &quot;avatar&quot;: &quot;https://reqres.in/img/faces/12-image.jpg&quot;
+        }
+    ],
+    &quot;support&quot;: {
+        &quot;url&quot;: &quot;https://reqres.in/#support-heading&quot;,
+        &quot;text&quot;: &quot;To keep ReqRes free, contributions towards server costs are appreciated!&quot;
+    }
+}
+page2
+total Pages2
+id First User7
+emailgeorge.edwards@reqres.in
+email[{id=11, email=george.edwards@reqres.in, first_name=George, last_name=Edwards, avatar=https://reqres.in/img/faces/11-image.jpg}, {id=12, email=rachel.howell@reqres.in, first_name=Rachel, last_name=Howell, avatar=https://reqres.in/img/faces/12-image.jpg}]
+usuario[{id=12, email=rachel.howell@reqres.in, first_name=Rachel, last_name=Howell, avatar=https://reqres.in/img/faces/12-image.jpg}]
+Request method:	GET
+Request URI:	https://reqres.in/api/users/2
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:			&lt;none&gt;
+HTTP/1.1 200 OK
+Date: Thu, 20 Oct 2022 10:23:00 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/&quot;118-pbdwwFo9SKNhD3Lx5iHJyngpq00&quot;
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+Age: 3347
+Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=cjjipP0z3IpO%2BbuuEhi%2BVI87TziP6TYCWFxFVl3L1bqJ1ZQZxUO%2FM8yhnkFSO0rWHVACCdQKphA2xIMoRzol6%2FeR0LwRpW8S3opI%2BEjepNfP%2BSB6hAO9UxpF7A%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 75d1091cbdf599a5-CDG
+Content-Encoding: gzip
+
+{
+    &quot;data&quot;: {
+        &quot;id&quot;: 2,
+        &quot;email&quot;: &quot;janet.weaver@reqres.in&quot;,
+        &quot;first_name&quot;: &quot;Janet&quot;,
+        &quot;last_name&quot;: &quot;Weaver&quot;,
+        &quot;avatar&quot;: &quot;https://reqres.in/img/faces/2-image.jpg&quot;
+    },
+    &quot;support&quot;: {
+        &quot;url&quot;: &quot;https://reqres.in/#support-heading&quot;,
+        &quot;text&quot;: &quot;To keep ReqRes free, contributions towards server costs are appreciated!&quot;
+    }
+}
+Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{
+    &quot;name&quot;: &quot;morpheus&quot;,
+    &quot;job&quot;: &quot;leader&quot;
+}
+HTTP/1.1 201 Created
+Date: Thu, 20 Oct 2022 10:23:00 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 84
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/&quot;54-8psEP9pMHvX5mTPUo/NHiMtFhlQ&quot;
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2BGW%2B1HNHVOMh%2B8uYqT8L1xEwjbT%2Fjxn01moUrFclpZfs%2FJWGU3Goi1W5oWPwt84E9O3jC98ap%2F1M49%2FOZlSdrXOjwTLP8fxzmnNje0ZCKwJXAfYvjD2gwMLZ4w%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+Server: cloudflare
+CF-RAY: 75d1091dbae8ff20-MAD
+
+{
+    &quot;name&quot;: &quot;morpheus&quot;,
+    &quot;job&quot;: &quot;leader&quot;,
+    &quot;id&quot;: &quot;295&quot;,
+    &quot;createdAt&quot;: &quot;2022-10-20T10:23:00.819Z&quot;
+}
+Request method:	PATCH
+Request URI:	https://reqres.in/api/users/2
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{
+    &quot;name&quot;: &quot;morpheus&quot;,
+    &quot;job&quot;: &quot;zion resident&quot;
+}
+HTTP/1.1 200 OK
+Date: Thu, 20 Oct 2022 10:23:01 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/&quot;50-u0ZgdAVkYyqta77aqwmWr2gPsoA&quot;
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=r3x5UTE3ymkA3lBnIlxM%2B27poqYRD%2BOYHvZ0faJgjuvgqtNJaIvrhfmUhZxvaGVtvVx9kN%2BfddHZ%2Fl%2F0y0Oyjq2DabOawpw0m7ARh8fg5dtn2%2F9JurBGPVWq6Q%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+Server: cloudflare
+CF-RAY: 75d1091ef80acdc7-CDG
+Content-Encoding: gzip
+
+{
+    &quot;name&quot;: &quot;morpheus&quot;,
+    &quot;job&quot;: &quot;zion resident&quot;,
+    &quot;updatedAt&quot;: &quot;2022-10-20T10:23:00.990Z&quot;
+}
+Request method:	DELETE
+Request URI:	https://reqres.in/api/users/2
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:			&lt;none&gt;
+HTTP/1.1 204 No Content
+Date: Thu, 20 Oct 2022 10:23:01 GMT
+Content-Length: 0
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/&quot;2-vyGp6PvFo4RvsFtPoIWeCReyIC8&quot;
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=DSkSbklPIe8eI03bj9WLiCmhKgUH24UCHpOfKiAUmIBKrTW2J4bBh3L9TzvTW%2FyCEMjfXnZ6wpm8S7U5rSjvmkdDuk0jn3R%2BM5wm9%2Beq%2Fz7GQraPJphAkdcjUg%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+Server: cloudflare
+CF-RAY: 75d10920198f040a-MAD
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>[CallSiteClassLoader@50b46e24] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@50b46e24] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@27ab206] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@27ab206] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@2f09e6b2] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@2f09e6b2] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@7dbae40] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@7dbae40] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@27da994b] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@27da994b] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@5ed0b4e3] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@5ed0b4e3] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@418f0534] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@418f0534] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@28f154cc] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@28f154cc] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@24e5389c] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@24e5389c] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@935d3f9] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@935d3f9] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@7de147e9] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@7de147e9] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@24a04257] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@24a04257] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@3dc39459] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@3dc39459] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@5f3b84bd] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@5f3b84bd] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@aa752bb] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@aa752bb] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@635ff2a5] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@635ff2a5] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@72a7aa4f] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@72a7aa4f] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@600bbf9e] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@600bbf9e] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@1bfa5a13] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@1bfa5a13] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@5896cb9c] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@5896cb9c] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@9205c0a] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@9205c0a] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@2b936b04] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@2b936b04] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@12c76d6e] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@12c76d6e] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@6d001fbe] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@6d001fbe] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@59313495] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@59313495] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@38d42ab7] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@38d42ab7] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@23c05889] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@23c05889] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@16b7e04a] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@16b7e04a] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@11f3400c] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@11f3400c] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@7ba1cdbe] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@7ba1cdbe] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@1c58d7be] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@1c58d7be] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@2abedbbd] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@2abedbbd] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@304744a1] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@304744a1] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@54941dfd] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@54941dfd] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@3a709cc7] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@3a709cc7] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@2965dd88] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@2965dd88] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@42a05533] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@42a05533] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@5c13af01] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@5c13af01] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@217b0952] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@217b0952] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@1f19d423] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@1f19d423] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@104bc677] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@104bc677] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@2dd2ff87] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@2dd2ff87] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@6dcee890] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@6dcee890] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@4af84a76] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@4af84a76] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@674e4c82] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@674e4c82] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@7cbe3a05] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@7cbe3a05] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@2fca282c] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@2fca282c] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@1edac3b4] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@1edac3b4] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@bd28c86] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@bd28c86] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@7d49a1a0] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@7d49a1a0] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@11120583] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@11120583] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@6796a873] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@6796a873] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@219edc05] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@219edc05] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@1b841e7d] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@1b841e7d] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@4d5ea776] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@4d5ea776] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@39004e4f] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@39004e4f] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@4d8522ff] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@4d8522ff] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@6104691c] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@6104691c] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@4db16677] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@4db16677] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@4247093b] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@4247093b] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@1700d089] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@1700d089] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[InnerLoader@18f13756] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[InnerLoader@18f13756] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@3d5e0bf0] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@3d5e0bf0] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@eee26bd] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@eee26bd] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@2cd877d3] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@2cd877d3] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@71a7cf7c] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@71a7cf7c] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[InnerLoader@23909b3] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[InnerLoader@23909b3] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@707b38a1] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@707b38a1] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@4529048e] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@4529048e] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@11fb1691] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@11fb1691] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@7ba623d1] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@7ba623d1] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@118879d2] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@118879d2] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@62f73b0c] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@62f73b0c] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@78141c58] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@78141c58] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@49b6373f] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@49b6373f] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@7aad7df5] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@7aad7df5] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@4e77f29e] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@4e77f29e] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@439047ef] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@439047ef] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@500beb9f] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@500beb9f] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@3e242137] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@3e242137] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[InnerLoader@40dcbf7] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[InnerLoader@40dcbf7] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[InnerLoader@3b22bcad] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[InnerLoader@3b22bcad] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[InnerLoader@f36c8b1] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[InnerLoader@f36c8b1] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[InnerLoader@40e90634] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[InnerLoader@40e90634] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[InnerLoader@179f30b7] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[InnerLoader@179f30b7] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[InnerLoader@2044f708] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[InnerLoader@2044f708] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[InnerLoader@6ae55678] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[InnerLoader@6ae55678] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[InnerLoader@5c3ad125] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[InnerLoader@5c3ad125] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[InnerLoader@650d5a3d] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[InnerLoader@650d5a3d] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.4</a> at 20 oct 2022, 12:23:01</p>
+</div>
+</div>
+</body>
+</html>
