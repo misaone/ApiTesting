@@ -4,3 +4,6 @@
 2022-10-21T11:50:21,747 [Test worker] INFO  (BaseTest.java:39) - Iniciando la configuración
 2022-10-21T11:50:23,198 [Test worker] INFO  (Applicationproperties.java:36) - Property application-dev.properties
 2022-10-21T11:50:23,313 [Test worker] INFO  (BaseTest.java:41) - Configuración exitosa
+2022-10-21T11:52:16,747 [Test worker] INFO  (BaseTest.java:40) - Iniciando la configuración
+2022-10-21T11:52:18,965 [Test worker] INFO  (Applicationproperties.java:36) - Property application-dev.properties
+2022-10-21T11:52:19,149 [Test worker] INFO  (BaseTest.java:42) - Configuración exitosa
